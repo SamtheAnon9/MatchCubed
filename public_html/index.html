@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+            <title>Match&sup3;</title>
+            <style>
+		body { margin: 0; background-color: black; overflow:hidden}
+                h1 {color: white; text-align: right;}
+            </style>
+	</head>
+        <body>
+            <div style="width:80%; float:left">
+<!--I've put all of my scripts here, even though they don't necessarily need to be here. I just find it nice to put them all at the canvas location that they are editing.-->
+                <canvas id="gameCanvas"></canvas>
+                <script src="js/libs/three.min.js"></script>
+                <script src="js/libs/jquery-1.9.1"></script>
+                <script src="js/ConstructScript.js"></script>
+                <script src="js/HighScores.js"></script>
+                <script src="js/PuzzleCube.js"></script>
+                <script src="js/Wall.js"></script>
+                <script src="js/InputManager.js"></script>
+                <script src="js/GameState.js"></script>
+                <script src="js/SplashState.js"></script>
+                <script src="js/GameOverState.js"></script>
+                <script src="js/PauseState.js"></script>
+                <script src="js/UpdateScript.js"></script>
+            </div>
+            <div style="width:20%; float:right">
+                <h1 id ="scoreText"></h1>
+                <h1>Local High Scores:</h1>
+                <h1 id="highScore1"></h1>
+                <h1 id="highScore2"></h1>
+                <h1 id="highScore3"></h1>
+                <h1 id="highScore4"></h1>
+                <h1 id="highScore5"></h1>
+            </div>
+	</body>
+        
+</html>
